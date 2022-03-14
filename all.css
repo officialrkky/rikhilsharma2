@@ -70,6 +70,13 @@ body{
   padding-bottom: 30px;
 }
 
+.navBar a{
+  color: #64ffda;
+}
+
+
+
+
 .header{
   display:flex;
   justify-content: center;
