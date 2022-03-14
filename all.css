@@ -1,0 +1,85 @@
+html{
+  font-family: "San Francisco";
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: grid;
+  background-color: #112240;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-columns: 1fr 5fr;
+  grid-template-areas: "header header" 
+                       "navBar body"      
+                       "footer footer";
+  grid-gap: 10px;
+  
+}
+
+.navBar{
+  background: #112240;
+  grid-area: navBar;
+  padding-right: 25px;
+  font-size: 13px;
+  font-family: "SF Mono";
+  color: #64ffda;
+  
+}
+
+.header{
+  grid-area: header;
+  width: 100%;
+  background-color: #0A192F;
+  opacity: 0.85;
+  backdrop-filter: blur(10px);
+  font-size: 13px;
+  font-family: "SF Mono";
+
+}
+
+.body{
+  grid-area: body; 
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: #white;
+  border-radius: 15px;
+  
+}
+
+.footer{
+  grid-area: footer;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #0A192F;
+  opacity: 0.85;
+  backdrop-filter: blur(10px);
+  font-size: 13px;
+  font-family: "SF Mono";
+  
+}
+
+.navBar ul, .navBar li{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px 5px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
