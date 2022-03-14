@@ -10,3 +10,8 @@ progress::-webkit-progress-value {
   background-color: #64ffda;
   border-radius: 5px;
 }
+
+img{
+height: 300px;
+width: 500px;
+}
