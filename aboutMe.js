@@ -1,4 +1,10 @@
 $(document).ready(() => {
+  
+    $('#infoDetails').hide();
+    $('#expDetails').hide();
+    $('#eduDetails').hide();
+    $('#honorsDetails').hide(); 
+  
   $('#info').mouseenter(function(){
     $('#infoDetails').show();
     $('#expDetails').hide();
