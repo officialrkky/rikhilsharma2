@@ -6,7 +6,7 @@ $(document).ready(() => {
   $("#pyCert").hide()
   
   $('#openHtmlCert').on('click', () => {
-    $("#htmlCert").show()
+    $("#htmlCert").toggle()
     $("#cssCert").hide()
     $("#jsCert").hide()
     $("#pyCert").hide()
@@ -14,7 +14,7 @@ $(document).ready(() => {
   
   $("#openCssCert").on('click', () =>{
     $("#htmlCert").hide()
-    $("#cssCert").show()
+    $("#cssCert").toggle()
     $("#jsCert").hide()
     $("#pyCert").hide()
   });
@@ -22,7 +22,7 @@ $(document).ready(() => {
   $("#openJsCert").on('click', () =>{
     $("#htmlCert").hide()
     $("#cssCert").hide()
-    $("#jsCert").show()
+    $("#jsCert").toggle()
     $("#pyCert").hide()
   });
   
@@ -30,7 +30,7 @@ $(document).ready(() => {
     $("#htmlCert").hide()
     $("#cssCert").hide()
     $("#jsCert").hide()
-    $("#pyCert").show()
+    $("#pyCert").toggle()
   });
 
 
