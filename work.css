@@ -1,7 +1,7 @@
 .body{
 display: grid;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 33% 33% 33%;
+grid-template-columns: 20% 20% 20% 20%;
 grid-template-areas = "project1 project2 project3 project4"
                       "project5 project6 project7 project8"
                       "project9 project10 project11 project 12"
