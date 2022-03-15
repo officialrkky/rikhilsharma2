@@ -45,3 +45,9 @@ grid-template-areas = "project1 project2 project3 project4"
 #project12{
   grid-area: project12;
 }
+
+
+img{
+height: 500px;
+width: 600px;
+}
