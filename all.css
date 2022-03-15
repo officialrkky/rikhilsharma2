@@ -49,6 +49,12 @@ body{
   align-content: space-around;
 }
 
+.footer .footerContent{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
 
 /* Font CSS */
 
