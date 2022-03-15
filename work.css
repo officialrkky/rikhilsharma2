@@ -1,10 +1,8 @@
 .body{
 display: grid;
-grid-template-rows: 33% 33% 33%;
-grid-template-columns: 20% 20% 20% 20%;
-grid-template-areas = "project1 project2 project3 project4"
-                      "project5 project6 project7 project8"
-                      "project9 project10 project11 project 12"
+grid-template-rows: 238px 238px 238px;
+grid-template-columns: 288px 288px 288xp;
+grid-template-areas = "project1 project2 project3" "project4 project5 project6" "project7 project8 project9"
 }
 
 
@@ -36,18 +34,10 @@ grid-template-areas = "project1 project2 project3 project4"
 #project9{
   grid-area: project9;
 }
-#project10{
-  grid-area: project10;
-}
-#project11{
-  grid-area: project11;
-}
-#project12{
-  grid-area: project12;
-}
+
 
 
 img{
-height: 500px;
-width: 600px;
+height: 288px;
+width: 238px;
 }
