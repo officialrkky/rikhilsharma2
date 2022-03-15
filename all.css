@@ -1,15 +1,10 @@
-html{
-  font-family: "San Francisco";
-  color: white;
-  height: 100%;
-  width: 100%;
-}
+/* Grid CSS */
 
 body{
   display: grid;
   background-color: #112240;
-  grid-template-rows: 1fr 5fr 1fr;
-  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-columns: 20% 1fr;
   grid-template-areas: "header header" 
                        "navBar body"      
                        "footer footer";
@@ -18,74 +13,32 @@ body{
 }
 
 .navBar{
-  background: #112240;
   grid-area: navBar;
-  padding-right: 25px;
-  font-size: 13px;
-  font-family: "SF Mono";
-  color: #64ffda;
-  
 }
 
 .header{
   grid-area: header;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #0A192F;
-  opacity: 0.85;
-  backdrop-filter: blur(10px);
-  font-size: 13px;
-  font-family: "SF Mono";
-
 }
 
 .body{
   grid-area: body; 
-  padding-top: 200px;
-  padding-bottom: 200px;
-  color: #white;
-  border-radius: 15px;
-  
 }
 
 .footer{
   grid-area: footer;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #0A192F;
-  opacity: 0.85;
-  backdrop-filter: blur(10px);
-  font-size: 13px;
-  font-family: "SF Mono";
-  
 }
+
+/* Flexbox CSS */
 
 .navBar ul, .navBar li{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 10px 5px;
-  padding-top: 0px;
-  padding-bottom: 30px;
 }
-
-.navBar a{
-  color: #64ffda;
-  text-decoration: none;
-}
-
-
-
 
 .header{
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -96,4 +49,70 @@ body{
   align-items: center;
 }
 
+
+/* Font CSS */
+
+html{
+  font-family: "San Francisco";
+  color: white;
+
+}
+
+.navBar, .navBar a{
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "SF Mono";
+  color: #64ffda;
+}
+
+.header{
+  font-size: 11px;
+  color: #64ffda;
+  font-family: "SF Mono";
+}
+
+.body{
+   color: #white;
+}
+
+.footer{
+   font-size: 13px;
+  font-family: "SF Mono";
+}
+
+/* Display CSS */
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+.navBar{
+  background: #112240;
+  padding-right: 25px;
+}
+
+.header{
+  width: 100%;
+  background-color: #0A192F;
+  opacity: 0.85;
+  backdrop-filter: blur(10px);
+}
+
+.body{
+  border-radius: 15px;
+}
+
+.footer{
+  width: 100%;
+  background-color: #0A192F;
+  opacity: 0.85;
+  backdrop-filter: blur(10px);
+}
+
+.navBar ul, .navBar li{
+  margin: 10px 5px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
 
