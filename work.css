@@ -1,7 +1,7 @@
 .body{
 display: grid;
-grid-template-rows: 238px 238px 238px;
-grid-template-columns: 288px 288px 288xp;
+grid-template-rows: 288px 288px 288px;
+grid-template-columns: 238px 238px 238xp;
 grid-template-areas = "project1 project2 project3" "project4 project5 project6" "project7 project8 project9"
 }
 
@@ -38,6 +38,6 @@ grid-template-areas = "project1 project2 project3" "project4 project5 project6" 
 
 
 img{
-height: 288px;
-width: 238px;
+height: 238px;
+width: 288px;
 }
