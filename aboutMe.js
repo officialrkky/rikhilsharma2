@@ -1,48 +1,36 @@
 $(document).ready(() => {
   
-    $('#infoDetails').hide();
-    $('#expDetails').hide();
-    $('#eduDetails').hide();
-    $('#honorsDetails').hide(); 
+    $('#infoDetails').hide()
+    $('#expDetails').hide()
+    $('#eduDetails').hide()
+    $('#honorsDetails').hide() 
   
   $('#info').mouseenter(function(){
-    $('#infoDetails').show();
-    $('#expDetails').hide();
-    $('#eduDetails').hide();
-    $('#honorsDetails').hide(); 
-    #info{
-    color: #64ffda;
-    }
+    $('#infoDetails').show()
+    $('#expDetails').hide()
+    $('#eduDetails').hide()
+    $('#honorsDetails').hide() 
   });
   
   $('#exp').mouseenter(function(){
-    $('#infoDetails').hide();
-    $('#expDetails').show();
-    $('#eduDetails').hide();
-    $('#honorsDetails').hide(); 
-    #exp{
-    color: #64ffda;
-    }
+    $('#infoDetails').hide()
+    $('#expDetails').show()
+    $('#eduDetails').hide()
+    $('#honorsDetails').hide() 
   }); 
   
     $('#edu').mouseenter(function(){
-    $('#infoDetails').hide();
-    $('#expDetails').hide();
-    $('#eduDetails').show();
-    $('#honorsDetails').hide(); 
-    #edu{
-    color: #64ffda;
-    }
+    $('#infoDetails').hide()
+    $('#expDetails').hide()
+    $('#eduDetails').show()
+    $('#honorsDetails').hide() 
   });
   
     $('#honors').mouseenter(function(){
-    $('#infoDetails').hide();
-    $('#expDetails').hide();
-    $('#eduDetails').hide();
-    $('#honorsDetails').show(); 
-    #honors{
-    color: #64ffda;
-    }
+    $('#infoDetails').hide()
+    $('#expDetails').hide()
+    $('#eduDetails').hide()
+    $('#honorsDetails').show() 
   });
   
 });
