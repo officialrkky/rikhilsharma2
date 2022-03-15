@@ -16,3 +16,7 @@
 .aboutMeDetails h4 span:hover{
   color: #64ffda;
 }
+
+#infoDetails, #eduDetails, #expDetails, #honorsDetails{
+  font-size: 14px;
+}
