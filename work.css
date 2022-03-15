@@ -6,3 +6,42 @@ grid-template-areas = "project1 project2 project3 project4"
                       "project5 project6 project7 project8"
                       "project9 project10 project11 project 12"
 }
+
+
+#project1{
+  grid-area: project1;
+}
+
+#project2{
+  grid-area: project2;
+}
+#project3{
+  grid-area: project3;
+}
+#project4{
+  grid-area: project4;
+}
+#project5{
+  grid-area: project5;
+}
+#project6{
+  grid-area: project6;
+}
+#project7{
+  grid-area: project7;
+}
+#project8{
+  grid-area: project8;
+}
+#project9{
+  grid-area: project9;
+}
+#project10{
+  grid-area: project10;
+}
+#project11{
+  grid-area: project11;
+}
+#project12{
+  grid-area: project12;
+}
